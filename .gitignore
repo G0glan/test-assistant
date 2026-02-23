@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Node / Electron
+node_modules/
+desktop-agent/node_modules/
+desktop-agent/dist/
+desktop-agent/.venv/
+
+# Chrome browser profile data (runtime files, cache, icons)
+desktop-agent/.agent/chrome-profile/
+
+# Logs
+*.log
+*.out.log
+*.err.log
+dev-run.log
+
+# Environment / secrets
+.env
+!.env.example
+
+# Misc
+.executor_state.json
+packages/contracts/schemas/*.json
+.DS_Store
+Thumbs.db
